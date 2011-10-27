@@ -1,30 +1,4 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=122
 
-IF YOU DON'T CARE ABOUT VIM AND GVIM USING THE SAME COLORS, THIS COLORSCHEME IS NOT FOR YOU!!!  (guess I'm tired of those who complain about the use of only 8 colors...)
-
-This colorscheme is a dark-background style colorscheme with the advantage that it works with console/terminal vim in the same way that it works with GUI vim.  Thus it is restricted to using just the basic eight colors that many xterms are limited to.
-
-The <astronaut.vim> file gives you my dark background preferred colorscheme.  If you'd like to see a preview, check out
-   
- http://mysite.verizon.net/astronaut/vim/colors/colorscheme.html
-    
-which has a small picture of yacc code being highlighted by <astronaut.vim>.
-          
-As of version 2 of the astronaut colorscheme, <astronaut.vim> supports some options which help console vims display properly.  There's a help file (doc/astronaut.txt) which you can enable by typing in a vim
-                     
-    :helptags ~/.vim/doc/
-                         
-(correct the path as needed).  The options include:
-                                
-  let astronaut_bold=1      : use the bold modifier for term, cterm, and gui
-
-  let astronaut_dark=1      : dark colors used (otherwise some terminals
-                              make everything bold, which can be all one
-                              color)
-
-  let astronaut_underline=1 : assume that underlining works on your terminal
-                              Otherwise some groups will have dark-magenta
-                              background highlighting.
-
-For example, on my old Sgi workstation, I've found that the Irix o/s needs let astronaut_dark=1 even though its only an 8-color terminal.  Otherwise most everything shows up as yellow.
+withdrawn -- the search engine bots got ahold of the "unsatisfactory" address and within a day -134 was dumped onto the astronaut colorscheme's karma.  I am now removing any plugins of mine from vim.sf.net that have this problem, as the poor karma ratings deter new downloaders.  You may still go to my website, http://drchip.0sites.net/astronaut/vim/index.html#ASTRONAUT to get a copy.
 
